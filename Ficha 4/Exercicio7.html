@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form id="myForm">
+        <label for="title">
+            Title <input type="text" id="title">
+        </label>
+        <label for="year">
+            Year <input type="number" id="year" min="1900">
+        </label>
+        <select id="options">
+            <option value="action">Action</option>
+            <option value="adventure">Adventure</option>
+            <option value="comedy">Comedy</option>
+            <option value="terror">Terror</option>
+            <option value="romance">Romance</option>
+            <option value="thriller">Thriller</option>
+            <option value="other">Other</option>☺
+        </select>
+        <label for="cover">
+            Cover <input type="url" id="cover">
+        </label>
+        <label for="trailer">
+            Trailer <input type="video/mp4" id="trailer">
+        </label>
+        <input type="submit" id="submitBtn">
+        <input type="reset" id="resetBtn">
+    </form>
+
+    <table id="myTable">
+        <tr>
+            <th>Title</th>
+            <th>Option</th>
+            <th>Cover</th>
+            <th>Triller</th>
+        </tr>
+    </table>
+    
+    <dialog id="dialog">
+        <img></img>
+        <iframe frameborder="0" width="415px" height="320px" allowfullscreen></iframe>
+        <button id="close">Close</button>
+    </dialog>
+    
+    <script src="Exercicio7.js"></script>
+</body>
+</html>

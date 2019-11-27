@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form id="myForm">
+        <label for="game">Game:</label><br>
+        <input type="text" id="game" required>
+        <br>
+        <label for="year">Year:</label><br> 
+        <input type="text" id="year" required>
+        <br>
+        <label for="options">Categories:</label> 
+        <select name="" id="options">
+            <option value="action">Action</option>
+            <option value="adventure">Adventure</option>
+            <option value="strategy">Strategy</option>
+            <option value="sports">Sports</option>
+            <option value="simulation">Simulation</option>
+        </select>
+        <br> 
+        <label for="cover">Cover:</label><br>
+        <input type="url" name="cover" id="cover">
+        <br>
+        <button type="submit" id="submitButton" value="submit">Submit</button>
+        <button type="reset" value="reset" id="resetButton">Clean</button>
+    </form>
+    <hr>
+    <table>
+        <caption>Game</caption>
+        <tr>
+            <th>Name</th>
+            <th>Year</th>
+            <th>Category</th>
+            <th>Image</th>
+            <th>Options</th>
+        </tr>
+    </table>
+
+    <script src="Exercicio5.js"></script>
+</body>
+</html>
